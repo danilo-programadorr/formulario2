@@ -1,0 +1,55 @@
+
+
+body{
+    background:url(img/predio.jpg);
+    font-family: Arial;
+    background-position: center;
+    background-size: cover;
+    margin-top: 40px;
+    background-position: center center;
+   
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: inset;
+    margin-right: 26%;
+    margin-left: 26%;
+    border: groove royalblue;
+
+}
+
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+.cor {
+    color: #ffffff;
+   font-weight: bold;
+   padding: 0px;
+}
+input {
+    border-radius: 2px;
+    padding: 1.5px;
+    border-radius: 5px;
+}
+
+#botao:hover {
+    width: 25%;
+    border: 2px solid #08298A;
+    background: #5882FA;
+}
+
+input:focus,textarea:focus{
+    background:#d7d7ff ; 
+}
+
+
+
